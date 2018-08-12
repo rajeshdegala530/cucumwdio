@@ -1,0 +1,37 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings"
+    ],
+    "globals": {
+      "browser": true,
+      "PIE":true,
+      "ProtectPANandCVV":true,
+      "pan":true   
+    },
+    "env": {
+      "es6": true,
+      "mocha": true,
+      "browser": true,
+      "node": true,
+      "jquery": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+      "quotes": 0,
+      "no-console": 0,
+      "no-debugger": 1,
+      "no-var": 1,
+      "semi": [1, "always"],
+      "no-trailing-spaces": 0,
+      "eol-last": 0,
+      "no-unused-vars": 0,
+      "no-underscore-dangle": 0,
+      "no-alert": 0,
+      "no-lone-blocks": 0,
+      
+      "no-empty-function": "off",
+      "jsx-quotes": 1
+    }
+  }
