@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Addition" timestamp="2018-08-29T11:39:23" time="0.054" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="69bb0eccb0c0ac8156ca6230e91e1c29"/>
+      <property name="suiteName" value="Addition"/>
+      <property name="capabilities" value="internetexplorer.11.windows"/>
+      <property name="file" value=".\test\f1\title.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Add_two_number" timestamp="2018-08-29T11:39:23" time="0.035" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="69bb0eccb0c0ac8156ca6230e91e1c29"/>
+      <property name="suiteName" value="Add two number"/>
+      <property name="capabilities" value="internetexplorer.11.windows"/>
+      <property name="file" value=".\test\f1\title.feature"/>
+    </properties>
+    <testcase classname="internetexplorer.11.windows.Add_two_number" name="the_numbers_1_and_3" time="0.327"/>
+    <testcase classname="internetexplorer.11.windows.Add_two_number" name="they_are_added_together" time="0.325"/>
+    <testcase classname="internetexplorer.11.windows.Add_two_number" name="should_the_result_be_4" time="0.325"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Click" timestamp="2018-08-29T11:39:07" time="8.4" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0655ee501bad259acf435047de69e0ef"/>
+      <property name="suiteName" value="Click"/>
+      <property name="capabilities" value="internetexplorer.11.windows"/>
+      <property name="file" value=".\test\f1\click.feature"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Verify_click" timestamp="2018-08-29T11:39:07" time="8.366" tests="2" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0655ee501bad259acf435047de69e0ef"/>
+      <property name="suiteName" value="Verify click"/>
+      <property name="capabilities" value="internetexplorer.11.windows"/>
+      <property name="file" value=".\test\f1\click.feature"/>
+    </properties>
+    <testcase classname="internetexplorer.11.windows.Verify_click" name="Open_browser_and_Start_Application" time="16.183"/>
+    <testcase classname="internetexplorer.11.windows.Verify_click" name="I_click_the_button" time="12.203">
+      <error message="An element could not be located on the page using the given search parameters (&quot;.my-menu-signin&quot;)."/>
+      <system-err>
+        <![CDATA[
+Error: An element could not be located on the page using the given search parameters (".my-menu-signin").
+    at click() -     at C:\Users\tamil\Documents\cucumwdio\node_modules\wdio-sync\build\index.js:312:3
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

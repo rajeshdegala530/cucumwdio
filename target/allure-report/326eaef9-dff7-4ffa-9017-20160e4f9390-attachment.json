@@ -1,0 +1,9 @@
+{
+    "message": "Unable to find element with css selector == .my-menu-signin\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'\nSystem info: host: 'DESKTOP-U8J6U5J', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: driver.version: unknown",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "type": "NoSuchElement",
+        "message": "An element could not be located on the page using the given search parameters.",
+        "orgStatusMessage": "Unable to find element with css selector == .my-menu-signin\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'\nSystem info: host: 'DESKTOP-U8J6U5J', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: driver.version: unknown"
+    }
+}

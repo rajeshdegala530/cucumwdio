@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1535560763275' stop='1535560763310'>
+    <name>Addition Add two number</name>
+    <title>Addition Add two number</title>
+    <test-cases>
+        <test-case start='1535560763308' status='passed' stop='1535560763310'>
+            <name>the numbers 1 and 3</name>
+            <title>the numbers 1 and 3</title>
+            <labels>
+                <label name='feature' value='Addition'/>
+                <label name='story' value='Add two number'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='internet explorer'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"build":"Checkout-Wdio-ie11-Wed Aug 29 2018 11:35:05 GMT-0500 (Central Daylight Time)","channel":"desktop","browserName":"internet explorer","platform":"windows","version":"11","screenResolution":"2560x1600","acceptSslCerts":true,"autoAcceptAlerts":true,"unexpectedAlertBehaviour":"dismiss","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"requireWindowFocus":true,"browserAttachTimeout":5000}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\tamil\\Documents\\cucumwdio\\test\\f1\\title.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1535560763310' status='passed' stop='1535560763310'>
+            <name>they are added together</name>
+            <title>they are added together</title>
+            <labels>
+                <label name='feature' value='Addition'/>
+                <label name='story' value='Add two number'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='internet explorer'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"build":"Checkout-Wdio-ie11-Wed Aug 29 2018 11:35:05 GMT-0500 (Central Daylight Time)","channel":"desktop","browserName":"internet explorer","platform":"windows","version":"11","screenResolution":"2560x1600","acceptSslCerts":true,"autoAcceptAlerts":true,"unexpectedAlertBehaviour":"dismiss","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"requireWindowFocus":true,"browserAttachTimeout":5000}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\tamil\\Documents\\cucumwdio\\test\\f1\\title.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1535560763310' status='passed' stop='1535560763310'>
+            <name>should the result be 4</name>
+            <title>should the result be 4</title>
+            <labels>
+                <label name='feature' value='Addition'/>
+                <label name='story' value='Add two number'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='internet explorer'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"build":"Checkout-Wdio-ie11-Wed Aug 29 2018 11:35:05 GMT-0500 (Central Daylight Time)","channel":"desktop","browserName":"internet explorer","platform":"windows","version":"11","screenResolution":"2560x1600","acceptSslCerts":true,"autoAcceptAlerts":true,"unexpectedAlertBehaviour":"dismiss","ignoreProtectedModeSettings":true,"ignoreZoomSetting":true,"requireWindowFocus":true,"browserAttachTimeout":5000}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\tamil\\Documents\\cucumwdio\\test\\f1\\title.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

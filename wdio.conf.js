@@ -52,8 +52,8 @@ let config = {
 
   // onPrepare: function(config, capabilities){},
    beforeSession: function (config, capabilities, specs) {
-     
-   }, 
+		//console.log(browser.desiredCapabilities);
+	}, 
   // before: (specs) => {},
 
   afterTest: () => {
